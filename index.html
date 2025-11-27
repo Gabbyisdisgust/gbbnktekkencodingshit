@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Page</title>
+    <style>
+        /* Set the background for the entire page */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('navi.png');
+            /* // Change background image URL here */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            position: relative;
+            height: 100vh;
+        }
+
+        /* Style for the top right logo/button */
+        #top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 50px;
+            /* Adjust size as needed */
+            height: 50px;
+            cursor: pointer;
+            /* Optional: add border or shadow */
+        }
+
+        #top-right img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        /* Container for buttons */
+        #main-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        /* Style for each button */
+        .btn {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            /* Blue color, change if needed */
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        /* Hover effect for buttons */
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top right logo/button -->
+    <div id="top-right">
+        <img src="your-logo.png" alt="Logo" id="logo-button" /> <!-- // Change logo image here -->
+    </div>
+
+    <!-- Main buttons area -->
+    <div id="main-buttons">
+        <!-- Button 1 -->
+        <button class="btn" id="button1">Button 1</button> <!-- // Edit button label -->
+        <!-- Button 2 -->
+        <button class="btn" id="button2">Button 2</button> <!-- // Edit button label -->
+        <!-- Button 3 -->
+        <button class="btn" id="button3">Button 3</button> <!-- // Edit button label -->
+        <!-- Button 4 -->
+        <button class="btn" id="button4">Button 4</button> <!-- // Edit button label -->
+        <!-- Button 5 -->
+        <button class="btn" id="button5">Button 5</button> <!-- // Edit button label -->
+    </div>
+
+    <script>
+        // Example: Add event listeners to buttons
+        document.getElementById('logo-button').addEventListener('click', function () {
+            // Redirect to main page or perform action
+            alert('Logo clicked!'); // Replace with your action
+        });
+
+        document.getElementById('button1').addEventListener('click', function () {
+            alert('Button 1 clicked!'); // Replace with your action
+        });
+
+        document.getElementById('button2').addEventListener('click', function () {
+            alert('Button 2 clicked!'); // Replace with your action
+        });
+
+        document.getElementById('button3').addEventListener('click', function () {
+            alert('Button 3 clicked!'); // Replace with your action
+        });
+
+        document.getElementById('button4').addEventListener('click', function () {
+            alert('Button 4 clicked!'); // Replace with your action
+        });
+
+        document.getElementById('button5').addEventListener('click', function () {
+            alert('Button 5 clicked!'); // Replace with your action
+        });
+    </script>
+
+</body>
+
+</html>
