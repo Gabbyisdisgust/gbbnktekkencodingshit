@@ -1,0 +1,36 @@
+.tab {padding: 5px; width: 720px;}
+.tit     {padding: 5px; text-align: center; vertical-align: middle; font-size: 20px; box-shadow: inset 0 0 10px white; font-family: monospace; font-weight: 900; background: rgba(128, 128, 128, 0.25);}
+.char    {padding: 8px; text-align: center; vertical-align: middle; font-size: 20px; background: rgba(200, 200, 200, 0.25);}
+.num     {padding: 8px; text-align: left  ; vertical-align: middle; font-size: 16px; background: rgba(200, 200, 200, 0.25); font-family: sans-serif;}
+.anim    {padding: 8px; text-align: center; vertical-align: middle; font-size: 20px; background: rgba(200, 200, 200, 0.25); font-family: monospace; font-weight: 900;}
+.vis {text-align: center; vertical-align: middle; width: 200px; background: url('mocap/pole.png') 0 28% / 200px 144px;}
+.viswatch {color: blue; font-size: 24px; cursor: pointer;}
+.img {position: absolute; left: -9999px; text-align: center; vertical-align: middle; width: 200px; cursor: pointer;}
+.onerrorimg {width: 200px; height: 40px; background: url('mocap/pole.png') 0 28% / 200px 144px; opacity: 0.5;}
+.verhline {background: linear-gradient(10deg, rgba(64, 64, 128, 0.5), rgba(64, 64, 64, 0.25), rgba(64, 64, 128, 0.5));}
+.title {box-shadow: inset 0 0 10px white; font-size: 48px; text-align: center; vertical-align: middle; font-family: comic; letter-spacing: 5px;}
+.titlelabel {cursor: pointer;}
+.titlelabel:hover {text-shadow: 0 0 30px blue;}
+tr[id] {position: absolute; top: -9999px; outline: 3px solid white;}
+input[type=checkbox] {transform: scale(1.5); cursor: pointer;}
+.chkbtr {position: absolute; margin-left: -9910px; margin-top: 25px;}
+.atk {background: rgba(255, 192, 192, 0.1);}
+.rea {background: rgba(000, 000, 255, 0.15);}
+.sta {background: rgba(200, 200, 200, 0.3);}
+.gra {background: rgba(192, 192, 000, 0.2);}
+.thr {background: rgba(064, 255, 064, 0.2);}
+.rev {background: rgba(064, 192, 192, 0.3);}
+.dir {background: rgba(255, 255, 000, 0.3);}
+.tk5a    {color: #AAA; background: #FFFFFF;}
+.tk5dwa  {color: #AAA; background: #FFFFFF;}
+.tk6SCa  {color: #AAA; background: #FFFFFF;}
+.ttt2a   {color: #AAA; background: #FFFFFF;}
+.ttt2p0a {color: #AAA; background: #FFFFFF;}
+.tkra    {color: #AAA; background: #FFFFFF;}
+.tk7a    {color: #AAA; background: #FFFFFF;}
+.customa {color: #AAA; background: #FFFFFF;}
+.desinfo {display: block; float: right; margin: -8px 95px 0 0;}
+.descont {position: absolute; display: inline-block; width: 100px; margin: 14px 0 0 0; text-align: right;}
+.bytes   {position: absolute; color: #00f; font-size: 11px; font-family: monospace; text-align: right; width: 100px;}
+.picrec  {display: inline-block; width: 15px; height: 15px; margin: 0 0 0 2px; background: url(../logo/picrec.png) center / 100% no-repeat; opacity: 0.5;}
+.piceff  {display: inline-block; width: 15px; height: 15px; margin: 0 0 0 2px; background: url(../logo/piceff.png) center / 100% no-repeat; opacity: 0.5;}
